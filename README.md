@@ -73,4 +73,8 @@ for i in {1..65535}; do ls -l /proc/$i/fd 2> /dev/null | grep "\/var\/cache\/fon
 cat /proc/*/maps | grep "libpostfix-util.so.1.0.1"
 ```
 
+```
+starce ls
+```
+
  Нужно написать перебор каталогов состоящих из цифр в каталоге /proc
