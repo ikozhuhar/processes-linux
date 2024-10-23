@@ -61,9 +61,9 @@ ls -la /proc/<pid> - кто является владельцем каталог
 1. ps -efl | grep nginx
 2. sudo ls -l /proc/2976/fd
 3. sudo cat /proc/2976/stat
+4. sudo gdb -p <Process ID> # вход в процесс, делаем call wait() для завершения процесса
 
 * 2976 -  это PID процесса
-gdb -p <Process ID> # вход в процесс, делаем call wait() для завершения процесса
 ```
 
 ### Заготовка для дом работы
