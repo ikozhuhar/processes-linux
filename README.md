@@ -74,7 +74,7 @@ cat /proc/*/maps | grep "libpostfix-util.so.1.0.1"
 ```
 
 ```
-starce ls
+strace ls
 ```
 
  Нужно написать перебор каталогов состоящих из цифр в каталоге /proc
