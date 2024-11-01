@@ -1,4 +1,4 @@
-### Процессы в Linux kljgljhkjhg
+### Процессы в Linux
 
 #### <a name='toc'>Содержание</a>
 
